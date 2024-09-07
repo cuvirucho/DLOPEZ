@@ -1,0 +1,93 @@
+*{
+  border: 0;
+  margin: 0;
+padding: 0;
+text-decoration: none;
+list-style: none;
+}
+.conterfull{
+  height: auto;
+  width: 100%;
+  display: flex;
+background-image: url("https://res.cloudinary.com/db8e98ggo/image/upload/v1725686754/y6kxchkvfm9v4pzkgxdo.png");
+  flex-direction: column;
+  align-items: center;
+}
+.logo{
+ width: 50%;
+}
+.conbtelogo{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 255, 0);
+}
+.contelibkteree{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+ border-radius: 20rem 20rem 0 0 ;
+  background-image: url("https://images.pexels.com/photos/17027433/pexels-photo-17027433/free-photo-of-noche-oscuro-sillas-interior.jpeg?auto=compress&cs=tinysrgb&w=400");
+  justify-content: space-around;
+  align-items: center;
+  object-fit: cover;
+  height: 100vh;
+
+}
+.item{
+ 
+    font-family: "Rye", serif;
+
+    letter-spacing: 10px;
+  font-size: 1.4rem;
+  color: aliceblue;
+  background-color: rgb(36, 31, 31);
+  width: 25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  margin: 2rem;
+  border-radius: 3rcap;
+  border: solid goldenrod;
+  animation: zumbido 3s ease-in-out infinite;
+}
+@keyframes zumbido {
+  0% { transform: translateX(0); }
+  10% { transform: translateY(-5px); }
+  20% { transform: translateX(5px); }
+  30% { transform: translateY(-5px); }
+  40% { transform: translateX(5px); }
+  50% { transform: translateY(-5px); }
+  60% { transform: translateX(5px); }
+  70% { transform: translateY(-5px); }
+  80% { transform: translateX(5px); }
+  90% { transform: translateY(-5px); }
+  100% { transform: translateX(0); }
+}
+.contecomet{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.comanteria{
+  width: 25rem;
+  height: 5rem;
+  background-color: rgb(0, 0, 0);
+margin-bottom: 2rem;
+  border-radius: 20rem;
+  padding: 1rem;
+  font-size: large;
+  color: aliceblue;
+  box-shadow: -5px 1px 25px rgba(187, 201, 2, 0.986);
+  transform: translate(0,-1rem);
+}
+
+.btnenvia{
+  background-color: goldenrod;
+  width: 5rem;
+  padding: 1rem;
+  border-radius: 5rem;
+  transform: translate(0,-1rem);
+}
